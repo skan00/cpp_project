@@ -15,7 +15,7 @@ void add(int a,int b,int c,int d){
  
 int main(){
   add(2,4);
-  add(3,5,6);
+  add(4,5,6);
   add(1,2,3,4);
  
   return 0;
