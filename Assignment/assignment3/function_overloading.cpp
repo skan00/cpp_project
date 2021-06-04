@@ -1,22 +1,26 @@
 #include<iostream>
 using namespace std;
- 
-void add(int a,int b,int c){
-  cout<<"Sum is :"<<a+b+c<<endl;
-}
- 
-void add(int a,int b){
-  cout<<"Sum is :"<<a+b<<endl;
-}
- 
-void add(int a,int b,int c,int d){
-  cout<<"Sum is :"<<a+b+c+d<<endl;
-}
- 
-int main(){
-  add(2,4);
-  add(4,5,6);
-  add(1,2,3,4);
- 
-  return 0;
-}
+ void add(int num1 ,int num2)
+ {
+    cout<<"addition of numbers \t"<<num1+num2;
+ }
+
+ void add(int num1 , double num2)
+ {
+    cout<<"addition of numbers \t"<<num1+num2;
+ }
+
+  void add(int num1 , double num2, double num3)
+ {
+    cout<<"addition of numbers \t"<<num1+num2+num3;
+ }
+
+ int main()
+ {
+     add(7,14);
+     cout<<endl;
+     add(7,14.5);
+     cout<<endl;
+     add(7,14.5,7.5);
+     cout<<endl;
+ }
