@@ -21,5 +21,4 @@ int main()
     cout<<"value of a in main:"<<a<<endl;
     cout<<"value of b in main:"<<b<<endl;
 
-
 }
