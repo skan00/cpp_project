@@ -15,8 +15,8 @@ void swapnum(int a , int b)
 
 int main ()
 {
-    int a , b ;
-    cout << "enter two num:" ;
+    int a, b ;
+    cout << "enter  num:" ;
     cin >> a >> b ;
     swapnum(a,b) ;
 
