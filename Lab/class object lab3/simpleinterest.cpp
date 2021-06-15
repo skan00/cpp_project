@@ -5,7 +5,7 @@ using namespace std;
 class SI {
     public:
     double interest
-        (double principle , double time, double rate=0.15){
+        (double principle , double time, double rate=2){
          return ((principle*time*rate)/100);
          
          
@@ -22,3 +22,4 @@ int main()
     cout<<"the SI is:"<<result;
     return 0;
 }
+ 
