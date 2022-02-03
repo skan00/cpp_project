@@ -11,7 +11,7 @@ typedef struct node NodeType;
 NodeType *head; 
 struct node *head = NULL;
 void insert_atbeginning(int); 
-void insert_givenpos(int); 
+void insert_givenposition(int); 
 void insert_atend(int); 
 void delet_atbeginning(); 
 void delet_atend(); 
@@ -173,7 +173,7 @@ void delet_givenpos()
     else 
     { 
     temp=head;
-    printf("Enter position of node which node is to be deleted\n");
+    printf("Enter position of node to be deleted\n");
     scanf("%d",&pos); 
     for(i=1;i<pos-1;i++)
     {
